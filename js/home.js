@@ -19,7 +19,6 @@ document.getElementById('btn-add-money')
 
             // step-5: update the balance amount 
             const updatedBalance = currentBalanceNumber + getMoneyNumber;
-            console.log(updatedBalance);
 
             // step-6: update the balance to the ui 
             document.getElementById('account-balance').innerText = updatedBalance;
